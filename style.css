@@ -1,0 +1,186 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    height: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    transition: dialog -open 3s ease-in-out;
+}
+
+h1{
+    margin: 20px;
+    text-align: center;
+}
+
+.products-container{
+    background-color: whitesmoke;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    /* grid-template-rows: repeat(auto-fill, minmax(400px, 1fr)); */
+    gap: 1rem;
+    padding: 20px;
+    margin-right: 1.5rem;
+}
+
+@media(min-width: 768px){
+    .products-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+.products{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+img{
+    border: none;
+    width: 100%;
+    min-height: 300px;
+    object-fit:cover;
+    display: block;
+}
+
+.favorites{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    background: url(./img/icons8-love-24.png);
+    border: none;
+    cursor: pointer;
+    background-color: rgb(77, 180, 246);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size:contain ;
+
+    transition: width 0.15s, height 0.15s, background-color 0.15s;
+
+}
+
+.favorites:hover{
+    width: 35px;
+    height: 35px;
+    /* left: 240px;
+    top: 20px; */
+}
+
+.favorites:active{
+    background-color: rgba(77, 180, 246, 0.75);
+}
+
+.product-details{
+    background-color: rgb(225, 221, 221);
+    text-align: center;
+    border: none;
+    width: 100%;
+    min-height: 100px;
+    /* padding-top: 15px;
+    padding-bottom: 5px; */
+}
+
+.open-modal{
+    position: absolute;
+    bottom: 140px;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(77, 180, 246);
+    border: none;
+    border-style:solid;
+    border-width: 0.2px;
+
+    transition: background-color 0.2s;
+}
+
+.open-modal:hover{
+    background-color: rgb(61, 142, 193);
+}
+
+.open-modal:active{
+    box-shadow: 0 0 0 rgb(61, 142, 193);
+    transform: translatey(0.5px);
+}
+
+
+.modal-view{
+    background-color: #cecaca;
+    border: none;
+    width: 500px;
+    max-width: 90%;
+    max-height:90% ;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .modal-content button {
+    background: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: #f44336;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .modal-content button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.1);
+  }
+  
+  .modal-content button::before {
+    content: '×';
+  }
+  
+  @media (max-width: 600px) {
+    .modal-view {
+      width: 90%;
+      padding: 15px;
+    }
+    
+    .modal-content button {
+      width: 25px;
+      height: 25px;
+      font-size: 16px;
+    }
+  }
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    max-height: 60vh; 
+    object-fit: contain;
+  }

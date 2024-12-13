@@ -1,0 +1,80 @@
+[
+    {
+      "id":1,
+      "imgSrc": "/img/shoes-catalog/feet-1840619_1280.jpg",
+      "alt": "white Nikes",
+      "name": "White Nikes",
+      "price": "$30,000"
+    },
+    {
+      "id":2,
+      "imgSrc": "/img/shoes-catalog/feet-1840619_1280.jpg",
+      "alt": "white Nikes",
+      "name": "White Nikes",
+      "price": "$30,000"
+    },
+    {
+      "id":3,
+      "imgSrc": "/img/shoes-catalog/oxford-shoes-6078993_1280.jpg",
+      "alt": "oxford-shoes",
+      "name": "Oxford Shoes",
+      "price": "$51,000"
+    },
+    {
+      "id":4,
+      "imgSrc": "/img/shoes-catalog/shoes-1897708_1280.jpg",
+      "alt": "New Balance Trainers",
+      "name": "New Balance Trainers",
+      "price": "$33,000"
+    },
+    {
+      "id":5,
+      "imgSrc": "/img/shoes-catalog/shoes-8026038_1280.jpg",
+      "alt": "",
+      "name": "Chuck Taylor All Star",
+      "price": "$12,000"
+    },
+    {
+      "id":6,
+      "imgSrc": "/img/shoes-catalog/woman-3857758_1280.jpg",
+      "alt": "Nike Blazers Low Platform sneakers",
+      "name": "Nike Blazers",
+      "price": "$29,000"
+    },
+    {
+      "id":7,
+      "imgSrc": "/img/shoes-catalog/shoes-1433925_1280.jpg",
+      "alt": "Chuck Taylor All Star Superheroes high top",
+      "name": "All Star Superheroes High Top",
+      "price": "$32,000"
+    },
+    {
+      "id":8,
+      "imgSrc": "/img/shoes-catalog/shoes-584850_1280.jpg",
+      "alt": "Merrell Moab 2",
+      "name": "Merrell Moab 2",
+      "price": "$30,000"
+    },
+    {
+      "id":9,
+      "imgSrc": "/img/shoes-catalog/shoes-8212405_1280.jpg",
+      "alt": "Nike SB Zoom Stefan Janoski sneakers",
+      "name": "SB Zoom Stefan Janoski Sneakers",
+      "price": "$46,000"
+    },
+    {
+      "id":10,
+      "imgSrc": "/img/shoes-catalog/jeans-2150408_1280.jpg",
+      "alt": "Nike Blazers Low Platform sneakers",
+      "name": "Armani Shoes",
+      "price": "$38,000"
+    },
+    {
+      "id":11,
+      "imgSrc": "/img/shoes-catalog/Sexy mf.jpg",
+      "alt": "Black sexy Nigga",
+      "name": "Sexy Nigga",
+      "price": "$1,000,000"
+    }
+  ]
+  
